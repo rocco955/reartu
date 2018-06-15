@@ -93,4 +93,11 @@ h5 {
 .social-icons a {
     color: white;
     padding: 5px;
+#listabirre {
+    background-color: rgb(255, 255, 185);
+}
+
+.titolobirre {
+    font-family: 'Eater', cursive;
+    font-size: 80px;
 }
