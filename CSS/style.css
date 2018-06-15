@@ -1,7 +1,8 @@
-body {
+#listabirre {
     background-color: rgb(255, 255, 185);
 }
 
-h1 {
+#titolobionde {
     font-family: 'Eater', cursive;
+    font-size: 80px;
 }
