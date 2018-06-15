@@ -8,11 +8,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous">
     <title>Pub Re Artù</title>
   </head>
   <body>
       <!--Nav Bar-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="#">Irish Pub</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -23,21 +27,30 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Le Nostre Birre</a>
+                  <a class="nav-link" href="lista_birre.html">Le Nostre Birre</a>
                 </li>
               </ul>
             </div>
           </nav>
-          <!--Fine Nav Bar-->
-          <!--Titolo-->
-          <h1>Irish Pub: Re Artù</h1>
-          <!--Immagine-->
-
+          <!--HEADER -->
+          <div id="header">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12 title">
+                  <div class="main-title">
+                    <h1>Irish Pub: Re Artu</h1>
+                    <h5>Prova la vera birra artigianale</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <!--Descrizione-->
         <div class="container">
-          <div id="descrizione">
+          <section id="noi">
               <div class="row">
                   <div class="col-md-6">
+                    <h2>Chi siamo</h2>
                       <p>I pub, che originariamente nacquero nei paesi anglosassoni 
                           (soprattutto in Irlanda e nel Regno Unito), oggi si trovano 
                           in tutto il mondo. Nei piccoli villaggi dei paesi britannici, 
@@ -47,59 +60,52 @@
                             Nei pub tradizionalmente sono praticati dei giochi come ad esempio freccette, 
                             birilli, domino, carte e biliardo, anche se oggigiorno stanno prendendo piede
                              giochi moderni come i videogiochi o le slot machines.
-                             <br><h2>Cibo</h2><br>
-                             Tradizionalmente in Inghilterra i pub erano luoghi dove si consumavano bevande 
-                             alcoliche e si dava poca enfasi sul fatto che servissero da mangiare. 
-                             I tipici spuntini consistevano in pietanze tipiche della cucina britannica,
-                              come cotenna di maiale, uova sottaceto, insieme a patate fritte e arachidi, 
-                              snack salati per aumentare la sete dei clienti. Se un pub serve dei piatti tipici, 
-                              normalmente saranno di cucina tipica come il "pranzo del contadino".
-                               Nel Sud-Est dell'Inghilterra, e a Londra in particolare fino ai giorni
-                                nostri è facile trovare vongole, molluschi ed altri frutti di mare in 
-                                vendita durante la serata o alla chiusura.  </p>
-                
-                  </div><!--chiude row-->
-              </div><!--chiude col-->
-              <div class="row">
-                    <div class="col-md-6">
-                        <img>
-                    </div>
-                </div><!--Chiude col-->
-            </div><!--Chiude Descrizione-->
-        </div><!--chiude container-->
-          <!--Chi Siamo-->
-        <div class="row">
-            <h2>Chi Siamo</h2>
-            <div class="col-md-12">
-                <p>
+                      </p>
+                  </div>  
 
-                        Re Artù nasce nel 2011 dalla volontà di 4 amici che desideravano fortemente creare un 
-                        ambiente accogliente e moderno che esprimesse i valori della casa e del buon umore! 
-                        L’idea si basava sulla volontà di creare non un comune bar ma una Casa a tutti gli effetti.
-                        
-                        Bisognava trovare una location adatta e comoda da raggiungere a tutti e cosi in via 
-                        Privata Paolo Rotta 10 nacque Re Artù!
-                        
-                        Re Artù aprì le porte il 5 Dicembre 2011 con un servizio di caffetteria 
-                        dalle 7 alle 24. Successivamente si pensò di offrire un servizio di 
-                        ristorazione anche a pranzo basato su  piadine artigianali farcite 
-                        sempre con prodotti freschi e ricercati e una piccola cucina pronta 
-                        ad offrire piatti freschi ogni giorno!
-                        
-                        Dal 1 Gennaio 2013 abbiamo inserito un Happy Hour tutti i giorni dalle 
-                        18.30 alle 20.30. Svariati sono i Cocktail in lista accompagnati da un 
-                        ricco Buffet sapientemente preparato dal nostro Chef.
-                        
-                        certificato-tripadvisor
-                        </p>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="img-index/story.jpg">
+                    </div>
+                </div><!--Chiude row-->
+          </section>
+
+          <!--Cibo-->
+        <section id="cibo">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid" src="img-index/food.jpg">
+          </div>
+          <div class="col-md-6">
+            <h2>Il nostro cibo</h2>
+                <p> Tradizionalmente in Inghilterra i pub erano luoghi dove si consumavano bevande alcoliche e si dava poca enfasi sul fatto
+                che servissero da mangiare. I tipici spuntini consistevano in pietanze tipiche della cucina britannica, come cotenna di maiale,
+                uova sottaceto, insieme a patate fritte e arachidi, snack salati per aumentare la sete dei clienti. Se un pub serve dei piatti
+                tipici, normalmente saranno di cucina tipica come il "pranzo del contadino". Nel Sud-Est dell'Inghilterra, e a Londra in
+                particolare fino ai giorni nostri è facile trovare vongole, molluschi ed altri frutti di mare in vendita durante la serata
+                o alla chiusura. </p>
             </div>
         </div>
-          <!--Footer-->
-        <div class="footer">
-                Copyright © 2015 Re Artù. | P.IVA 06329130964 | Design by Exit Web Solutions
+      
+      </section>
+  </div>
+  <!--chiude container-->
+      <!--Footer-->
+        <div id="footer">
+          <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <p>Copyright © 2015 Re Artù. | P.IVA 06329130964 | Design by Exit Web Solutions</p>
+                <div class="col-md-12">
+                  <p class="social-icons">
+                    <a class="fab fa-twitter" href="#"></a>
+                    <a class="fab fa-instagram" href="#"></a>
+                    <a class="fab fa-facebook-f" href="#"></a>
+                  </p>
+                </div>
+            </div>
         </div>
+</div>
 
-    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
